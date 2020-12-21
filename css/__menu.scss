@@ -1,0 +1,33 @@
+.menu
+{
+    display: flex;
+    justify-content: left;
+    margin-left: 90px;
+    align-items: center;
+    font-family: 'TT Tsars C';
+    font-size: 0.9rem;
+
+    .menu__items
+    {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+
+        .menu__item
+        {
+            position: relative;
+            padding: 5px 45px;
+            border-left: 1px groove #fff;
+            background-color: #091739;
+            color: rgb(243, 221, 221);
+
+            &:hover
+            {
+                background-color: #2f3909;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+/*HEADER*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(243, 221, 221);
+    padding: 10px 0;
+
+    h1 {
+    font-family: 'Wild Trails';
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+    margin-left: 80px;
+    }
+
+    a {
+    text-decoration: none;
+    color: white;
+    margin-left: 80px;
+    }
+
+    span {
+    margin-left: auto;
+    margin-right: 150px;
+    font-size: 2rem;
+    font-family: 'Mystical Woods Rough Caps';
+    color: rgb(96, 131, 247);
+    }
+}

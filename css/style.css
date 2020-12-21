@@ -1,0 +1,244 @@
+@font-face {
+  font-family: "Wild Trails";
+  src: url("../fonts/WildTrails/WildTrails.eot");
+  src: local("Wild Trails"), local("WildTrails"), url("../fonts/WildTrails/WildTrails.eot") format("embedded-opentype"), url("../fonts/WildTrails/WildTrails.woff") format("woff"), url("../fonts/WildTrails/WildTrails.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mystical Woods Rough Caps";
+  src: url("../fonts/MysticalWoods/MysticalWoodsRoughCaps.eot");
+  src: local("Mystical Woods Rough Caps"), local("MysticalWoodsRoughCaps"), url("../fonts/MysticalWoods/MysticalWoodsRoughCaps.eot") format("embedded-opentype"), url("../fonts/MysticalWoods/MysticalWoodsRoughCaps.woff2") format("woff2"), url("../fonts/MysticalWoods/MysticalWoodsRoughCaps.woff") format("woff"), url("../fonts/MysticalWoods/MysticalWoodsRoughCaps.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Tsars C";
+  src: url("TTTsars/TTTsarsC-Black.eot");
+  src: local("TT Tsars C Black"), local("TTTsarsC-Black"), url("../fonts/TTTsars/TTTsarsC-Black.eot") format("embedded-opentype"), url("../fonts/TTTsars/TTTsarsC-Black.woff2") format("woff2"), url("../fonts/TTTsars/TTTsarsC-Black.woff") format("woff"), url("../fonts/TTTsars/TTTsarsC-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Squalo";
+  src: url("../fonts/Squalo/Squalo-Regular.eot");
+  src: local("Squalo Regular"), local("Squalo-Regular"), url("../fonts/Squalo/Squalo-Regular.eot") format("embedded-opentype"), url("../fonts/Squalo/Squalo-Regular.woff2") format("woff2"), url("../fonts/Squalo/Squalo-Regular.woff") format("woff"), url("../fonts/Squalo/Squalo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #5b4073;
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+hr {
+  width: 95%;
+  margin: 0 auto;
+  border: 1.5px solid black;
+  border-radius: 20px;
+}
+
+.toTop-button {
+  fill: white;
+  position: fixed;
+  right: 2px;
+  bottom: 5px;
+  color: white;
+  text-align: right;
+  margin-right: 40px;
+  opacity: 0.3;
+}
+.toTop-button svg:hover {
+  fill: #cc1515;
+  opacity: 1;
+  cursor: pointer;
+}
+
+/*HEADER*/
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #f3dddd;
+  padding: 10px 0;
+}
+.header h1 {
+  font-family: "Wild Trails";
+  letter-spacing: 1px;
+  font-size: 1.8rem;
+  margin-left: 80px;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+  margin-left: 80px;
+}
+.header span {
+  margin-left: auto;
+  margin-right: 150px;
+  font-size: 2rem;
+  font-family: "Mystical Woods Rough Caps";
+  color: #6083f7;
+}
+
+.menu {
+  display: flex;
+  justify-content: left;
+  margin-left: 90px;
+  align-items: center;
+  font-family: "TT Tsars C";
+  font-size: 0.9rem;
+}
+.menu .menu__items {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.menu .menu__items .menu__item {
+  position: relative;
+  padding: 5px 45px;
+  border-left: 1px groove #fff;
+  background-color: #091739;
+  color: #f3dddd;
+}
+.menu .menu__items .menu__item:hover {
+  background-color: #2f3909;
+  cursor: pointer;
+}
+
+.dropdown-item {
+  position: absolute;
+  top: 26px;
+  left: -16px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.dropdown-item .dropdown__row {
+  width: 200px;
+  text-align: center;
+  padding: 5px 45px;
+  border-left: 1px groove #fff;
+  border-right: 1px groove #fff;
+  border-bottom: 1px groove #fff;
+  background-color: #091739;
+  color: #f3dddd;
+}
+.dropdown-item .dropdown__row:hover {
+  background-color: #2f3909;
+  cursor: pointer;
+}
+.dropdown-item .dropdown__link {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: #f3dddd;
+  cursor: pointer;
+}
+.dropdown-item .dropdown__link:hover {
+  background-color: #2f3909;
+}
+
+.article-blocks {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.article-blocks .article-block__outerBorder {
+  background-color: #000;
+  margin: 9px 5px;
+  padding: 10px;
+  border: 2px solid #202020;
+  border-radius: 10px;
+  z-index: 1;
+}
+.article-blocks .article-block__outerBorder .article-block__innerBorder {
+  text-align: justify;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  z-index: 2;
+  background-color: #407273;
+  color: #000;
+}
+.article-blocks .article-block__outerBorder .article-block__innerBorder .article-block__header {
+  font-family: "Mystical Woods Rough Caps";
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  margin-bottom: 7px;
+  text-align: center;
+}
+.article-blocks .article-block__outerBorder .article-block__innerBorder .article-block__description {
+  font-family: "Squalo";
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+.article-blocks .article-block__outerBorder .article-block__innerBorder .article-block__link {
+  text-align: center;
+  margin-top: 10px;
+}
+.article-blocks .article-block__outerBorder .article-block__innerBorder .article-block__link a {
+  text-decoration: none;
+  color: white;
+  background-color: #000;
+  padding: 2px 50px;
+  border-radius: 15px;
+}
+.article-blocks .article-block__outerBorder .article-block__innerBorder .article-block__link a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.content {
+  width: 75%;
+}
+.content .content__header {
+  font-family: "Mystical Woods Rough Caps";
+  font-size: 1.5rem;
+  margin: 30px 0 15px 0;
+  text-align: center;
+  color: #f3dddd;
+}
+.content .content__article {
+  font-family: "Squalo";
+  font-size: 1.1rem;
+  line-height: 2;
+  text-indent: 25px;
+  letter-spacing: 1px;
+  text-align: justify;
+  margin: 0 30px;
+  color: #f3dddd;
+  margin-bottom: 30px;
+}
+.content p {
+  margin-bottom: 8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: white;
+  font-family: "TT Tsars C";
+}
+.footer h3 {
+  display: block;
+  margin: 0 auto;
+}

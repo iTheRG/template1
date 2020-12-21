@@ -1,0 +1,34 @@
+.content
+{
+    width: 75%;
+
+    .content__header
+    {
+        font-family: 'Mystical Woods Rough Caps';
+        font-size: 1.5rem;
+        margin: 30px 0 15px 0;
+        text-align: center;
+        color: rgb(243, 221, 221);
+    }
+
+    .content__article
+    {
+        font-family: 'Squalo';
+        font-size: 1.1rem;
+        line-height: 2;
+        text-indent: 25px;
+        letter-spacing: 1px;
+        text-align: justify;
+        margin: 0 30px;
+        color: rgb(243, 221, 221);
+        margin-bottom: 30px;
+    }
+
+    p
+    {
+        margin-bottom: 8px;
+    }
+}
+
+
+

@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'TT Tsars C';
+    src: url('TTTsarsC-Black.eot');
+    src: local('TT Tsars C Black'), local('TTTsarsC-Black'),
+        url('TTTsarsC-Black.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsC-Black.woff2') format('woff2'),
+        url('TTTsarsC-Black.woff') format('woff'),
+        url('TTTsarsC-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars D';
+    src: url('TTTsarsD-Black.eot');
+    src: local('TT Tsars D Black'), local('TTTsarsD-Black'),
+        url('TTTsarsD-Black.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsD-Black.woff2') format('woff2'),
+        url('TTTsarsD-Black.woff') format('woff'),
+        url('TTTsarsD-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars D';
+    src: url('TTTsarsD-Light.eot');
+    src: local('TT Tsars D Light'), local('TTTsarsD-Light'),
+        url('TTTsarsD-Light.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsD-Light.woff2') format('woff2'),
+        url('TTTsarsD-Light.woff') format('woff'),
+        url('TTTsarsD-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars B';
+    src: url('TTTsarsB-Bold.eot');
+    src: local('TT Tsars B Bold'), local('TTTsarsB-Bold'),
+        url('TTTsarsB-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsB-Bold.woff2') format('woff2'),
+        url('TTTsarsB-Bold.woff') format('woff'),
+        url('TTTsarsB-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars E';
+    src: url('TTTsarsE-Regular.eot');
+    src: local('TT Tsars E Regular'), local('TTTsarsE-Regular'),
+        url('TTTsarsE-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsE-Regular.woff2') format('woff2'),
+        url('TTTsarsE-Regular.woff') format('woff'),
+        url('TTTsarsE-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars E';
+    src: url('TTTsarsE-Bold.eot');
+    src: local('TT Tsars E Bold'), local('TTTsarsE-Bold'),
+        url('TTTsarsE-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsE-Bold.woff2') format('woff2'),
+        url('TTTsarsE-Bold.woff') format('woff'),
+        url('TTTsarsE-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars E';
+    src: url('TTTsarsE-Light.eot');
+    src: local('TT Tsars E Light'), local('TTTsarsE-Light'),
+        url('TTTsarsE-Light.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsE-Light.woff2') format('woff2'),
+        url('TTTsarsE-Light.woff') format('woff'),
+        url('TTTsarsE-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars B';
+    src: url('TTTsarsB-Regular.eot');
+    src: local('TT Tsars B Regular'), local('TTTsarsB-Regular'),
+        url('TTTsarsB-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsB-Regular.woff2') format('woff2'),
+        url('TTTsarsB-Regular.woff') format('woff'),
+        url('TTTsarsB-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars E';
+    src: url('TTTsarsE-Black.eot');
+    src: local('TT Tsars E Black'), local('TTTsarsE-Black'),
+        url('TTTsarsE-Black.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsE-Black.woff2') format('woff2'),
+        url('TTTsarsE-Black.woff') format('woff'),
+        url('TTTsarsE-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars D';
+    src: url('TTTsarsD-Bold.eot');
+    src: local('TT Tsars D Bold'), local('TTTsarsD-Bold'),
+        url('TTTsarsD-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsD-Bold.woff2') format('woff2'),
+        url('TTTsarsD-Bold.woff') format('woff'),
+        url('TTTsarsD-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars D';
+    src: url('TTTsarsD-Regular.eot');
+    src: local('TT Tsars D Regular'), local('TTTsarsD-Regular'),
+        url('TTTsarsD-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsD-Regular.woff2') format('woff2'),
+        url('TTTsarsD-Regular.woff') format('woff'),
+        url('TTTsarsD-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars C';
+    src: url('TTTsarsC-Regular.eot');
+    src: local('TT Tsars C Regular'), local('TTTsarsC-Regular'),
+        url('TTTsarsC-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsC-Regular.woff2') format('woff2'),
+        url('TTTsarsC-Regular.woff') format('woff'),
+        url('TTTsarsC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars A';
+    src: url('TTTsarsA-Bold.eot');
+    src: local('TT Tsars A Bold'), local('TTTsarsA-Bold'),
+        url('TTTsarsA-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsA-Bold.woff2') format('woff2'),
+        url('TTTsarsA-Bold.woff') format('woff'),
+        url('TTTsarsA-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars A';
+    src: url('TTTsarsA-Black.eot');
+    src: local('TT Tsars A Black'), local('TTTsarsA-Black'),
+        url('TTTsarsA-Black.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsA-Black.woff2') format('woff2'),
+        url('TTTsarsA-Black.woff') format('woff'),
+        url('TTTsarsA-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars B';
+    src: url('TTTsarsB-Light.eot');
+    src: local('TT Tsars B Light'), local('TTTsarsB-Light'),
+        url('TTTsarsB-Light.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsB-Light.woff2') format('woff2'),
+        url('TTTsarsB-Light.woff') format('woff'),
+        url('TTTsarsB-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars A';
+    src: url('TTTsarsA-Light.eot');
+    src: local('TT Tsars A Light'), local('TTTsarsA-Light'),
+        url('TTTsarsA-Light.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsA-Light.woff2') format('woff2'),
+        url('TTTsarsA-Light.woff') format('woff'),
+        url('TTTsarsA-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars C';
+    src: url('TTTsarsC-Light.eot');
+    src: local('TT Tsars C Light'), local('TTTsarsC-Light'),
+        url('TTTsarsC-Light.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsC-Light.woff2') format('woff2'),
+        url('TTTsarsC-Light.woff') format('woff'),
+        url('TTTsarsC-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars B';
+    src: url('TTTsarsB-Black.eot');
+    src: local('TT Tsars B Black'), local('TTTsarsB-Black'),
+        url('TTTsarsB-Black.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsB-Black.woff2') format('woff2'),
+        url('TTTsarsB-Black.woff') format('woff'),
+        url('TTTsarsB-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars C';
+    src: url('TTTsarsC-Bold.eot');
+    src: local('TT Tsars C Bold'), local('TTTsarsC-Bold'),
+        url('TTTsarsC-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsC-Bold.woff2') format('woff2'),
+        url('TTTsarsC-Bold.woff') format('woff'),
+        url('TTTsarsC-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars A';
+    src: url('TTTsarsA-Regular.eot');
+    src: local('TT Tsars A Regular'), local('TTTsarsA-Regular'),
+        url('TTTsarsA-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTTsarsA-Regular.woff2') format('woff2'),
+        url('TTTsarsA-Regular.woff') format('woff'),
+        url('TTTsarsA-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

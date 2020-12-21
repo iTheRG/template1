@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'Wild Trails';
+	src: url('../fonts/WildTrails/WildTrails.eot');
+	src: local('Wild Trails'), local('WildTrails'),
+		url('../fonts/WildTrails/WildTrails.eot') format('embedded-opentype'),
+		url('../fonts/WildTrails/WildTrails.woff') format('woff'),
+		url('../fonts/WildTrails/WildTrails.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mystical Woods Rough Caps';
+    src: url('../fonts/MysticalWoods/MysticalWoodsRoughCaps.eot');
+    src: local('Mystical Woods Rough Caps'), local('MysticalWoodsRoughCaps'),
+        url('../fonts/MysticalWoods/MysticalWoodsRoughCaps.eot') format('embedded-opentype'),
+        url('../fonts/MysticalWoods/MysticalWoodsRoughCaps.woff2') format('woff2'),
+        url('../fonts/MysticalWoods/MysticalWoodsRoughCaps.woff') format('woff'),
+        url('../fonts/MysticalWoods/MysticalWoodsRoughCaps.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Tsars C';
+    src: url('TTTsars/TTTsarsC-Black.eot');
+    src: local('TT Tsars C Black'), local('TTTsarsC-Black'),
+        url('../fonts/TTTsars/TTTsarsC-Black.eot') format('embedded-opentype'),
+        url('../fonts/TTTsars/TTTsarsC-Black.woff2') format('woff2'),
+        url('../fonts/TTTsars/TTTsarsC-Black.woff') format('woff'),
+        url('../fonts/TTTsars/TTTsarsC-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Squalo';
+    src: url('../fonts/Squalo/Squalo-Regular.eot');
+    src: local('Squalo Regular'), local('Squalo-Regular'),
+        url('../fonts/Squalo/Squalo-Regular.eot') format('embedded-opentype'),
+        url('../fonts/Squalo/Squalo-Regular.woff2') format('woff2'),
+        url('../fonts/Squalo/Squalo-Regular.woff') format('woff'),
+        url('../fonts/Squalo/Squalo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
